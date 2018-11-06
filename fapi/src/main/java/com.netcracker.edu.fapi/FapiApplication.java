@@ -1,6 +1,3 @@
-/**
- * Created by Alexey on 25.10.2018.
- */
 package com.netcracker.edu.fapi;
 
 import org.springframework.boot.SpringApplication;
