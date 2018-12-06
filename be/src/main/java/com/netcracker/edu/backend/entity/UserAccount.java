@@ -8,46 +8,45 @@ public class UserAccount {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id_AC;
+    private Boolean isAdmin;
     private Long id_BA;
-    private Long id_ROLE;
     private String login;
     private String email;
     private String password;
 
-    public UserAccount(){
-
+    public UserAccount() {
     }
 
-    public UserAccount(long id_BA, long id_ROLE, String login, String email, String password) {
+    public UserAccount(Boolean isAdmin, Long id_BA, String login, String email, String password) {
+        this.isAdmin = isAdmin;
         this.id_BA = id_BA;
-        this.id_ROLE = id_ROLE;
         this.login = login;
         this.email = email;
         this.password = password;
     }
 
-    public long getId_AC() {
+    public Long getId_AC() {
         return id_AC;
     }
 
-    public void setId_AC(long id_AC) {
+    public void setId_AC(Long id_AC) {
         this.id_AC = id_AC;
     }
 
-    public long getId_BA() {
+    public Boolean getAdmin() {
+        return isAdmin;
+    }
+
+    public void setAdmin(Boolean admin) {
+        isAdmin = admin;
+    }
+
+    public Long getId_BA() {
         return id_BA;
     }
 
-    public void setId_BA(long id_BA) {
+    public void setId_BA(Long id_BA) {
         this.id_BA = id_BA;
-    }
-
-    public long getId_ROLE() {
-        return id_ROLE;
-    }
-
-    public void setId_ROLE(long id_ROLE) {
-        this.id_ROLE = id_ROLE;
     }
 
     public String getLogin() {
@@ -81,22 +80,22 @@ public class UserAccount {
 
         UserAccount that = (UserAccount) o;
 
-        if (id_AC != that.id_AC) return false;
-        if (id_BA != that.id_BA) return false;
-        if (id_ROLE != that.id_ROLE) return false;
-        if (!login.equals(that.login)) return false;
-        if (!email.equals(that.email)) return false;
-        return password.equals(that.password);
+        if (id_AC != null ? !id_AC.equals(that.id_AC) : that.id_AC != null) return false;
+        if (isAdmin != null ? !isAdmin.equals(that.isAdmin) : that.isAdmin != null) return false;
+        if (id_BA != null ? !id_BA.equals(that.id_BA) : that.id_BA != null) return false;
+        if (login != null ? !login.equals(that.login) : that.login != null) return false;
+        if (email != null ? !email.equals(that.email) : that.email != null) return false;
+        return password != null ? password.equals(that.password) : that.password == null;
     }
 
     @Override
     public int hashCode() {
-        int result = (int) (id_AC ^ (id_AC >>> 32));
-        result = 31 * result + (int) (id_BA ^ (id_BA >>> 32));
-        result = 31 * result + (int) (id_ROLE ^ (id_ROLE >>> 32));
-        result = 31 * result + login.hashCode();
-        result = 31 * result + email.hashCode();
-        result = 31 * result + password.hashCode();
+        int result = id_AC != null ? id_AC.hashCode() : 0;
+        result = 31 * result + (isAdmin != null ? isAdmin.hashCode() : 0);
+        result = 31 * result + (id_BA != null ? id_BA.hashCode() : 0);
+        result = 31 * result + (login != null ? login.hashCode() : 0);
+        result = 31 * result + (email != null ? email.hashCode() : 0);
+        result = 31 * result + (password != null ? password.hashCode() : 0);
         return result;
     }
 
@@ -104,8 +103,8 @@ public class UserAccount {
     public String toString() {
         return "UserAccount{" +
                 "id_AC=" + id_AC +
+                ", isAdmin=" + isAdmin +
                 ", id_BA=" + id_BA +
-                ", id_ROLE=" + id_ROLE +
                 ", login='" + login + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +

@@ -10,4 +10,3 @@ public class FapiApplication {
         SpringApplication.run(FapiApplication.class, args);
     }
 }
-

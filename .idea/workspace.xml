@@ -2,53 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="014509e5-2fa4-41f1-994b-df5f4a9dd8b8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_springframework_boot_spring_boot_1_1_1_RELEASE.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/service/Impl/UserAccountServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/service/Impl/UserAccountDataServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/src/app/component/user-accounts/user-accounts.component.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_0_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_0_10_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_25_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_0_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_8_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_core_2_0_6_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/service/UserAccountServiceInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/be/target/classes/com/netcracker/edu/backend/service/UserAccountServiceInterface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/service/UserAccountDataServiceInterface.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/frontend/src/app/user-accounts/user-accounts.component.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be/target/classes/com/netcracker/edu/backend/controller/UserAccountController.class" afterPath="$PROJECT_DIR$/be/target/classes/com/netcracker/edu/backend/controller/UserAccountController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be/target/classes/com/netcracker/edu/backend/entity/UserAccount.class" afterPath="$PROJECT_DIR$/be/target/classes/com/netcracker/edu/backend/entity/UserAccount.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be/target/classes/com/netcracker/edu/backend/repository/UserAccountRepository.class" afterPath="$PROJECT_DIR$/be/target/classes/com/netcracker/edu/backend/repository/UserAccountRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be/target/classes/com/netcracker/edu/backend/service/UserAccountService.class" afterPath="$PROJECT_DIR$/be/target/classes/com/netcracker/edu/backend/service/UserAccountService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SD-4_OtyutskyAlexey.iml" afterPath="$PROJECT_DIR$/SD-4_OtyutskyAlexey.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be/be.iml" afterPath="$PROJECT_DIR$/be/be.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be/pom.xml" afterPath="$PROJECT_DIR$/be/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/BackendApplication.java" afterPath="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/BackendApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be/sql/table_create.sql" afterPath="$PROJECT_DIR$/be/sql/table_create.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be/sql/table_fill.sql" afterPath="$PROJECT_DIR$/be/sql/table_fill.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/controller/UserAccountController.java" afterPath="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/controller/UserAccountController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/entity/UserAccount.java" afterPath="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/entity/UserAccount.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/repository/UserAccountRepository.java" afterPath="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/repository/UserAccountRepository.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/service/UserAccountService.java" afterPath="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/service/UserAccountService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/be/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/be/target/classes/application.properties" afterPath="$PROJECT_DIR$/be/target/classes/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fapi/fapi.iml" afterPath="$PROJECT_DIR$/fapi/fapi.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fapi/pom.xml" afterPath="$PROJECT_DIR$/fapi/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/FapiApplication.java" afterPath="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/FapiApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/be/src/main/resources/application.properties.properties" afterPath="$PROJECT_DIR$/be/src/main/resources/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fapi/src/main/resources/application.properties.properties" afterPath="$PROJECT_DIR$/fapi/src/main/resources/application.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/css/bootstrap-grid.css" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/css/bootstrap-grid.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/css/bootstrap-grid.css.map" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/css/bootstrap-grid.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/css/bootstrap-grid.min.css" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/css/bootstrap-grid.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/css/bootstrap-grid.min.css.map" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/css/bootstrap-grid.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/css/bootstrap-reboot.css" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/css/bootstrap-reboot.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/css/bootstrap-reboot.css.map" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/css/bootstrap-reboot.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/css/bootstrap-reboot.min.css" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/css/bootstrap-reboot.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/css/bootstrap-reboot.min.css.map" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/css/bootstrap-reboot.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/css/bootstrap.min.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/js/bootstrap.bundle.js" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/js/bootstrap.bundle.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/js/bootstrap.bundle.js.map" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/js/bootstrap.bundle.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/js/bootstrap.bundle.min.js" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/js/bootstrap.bundle.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/js/bootstrap.bundle.min.js.map" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/js/bootstrap.bundle.min.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/js/bootstrap.js.map" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/js/bootstrap.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/bootstrap/js/bootstrap.min.js.map" afterPath="$PROJECT_DIR$/frontend/utilities/bootstrap/js/bootstrap.min.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/css/landing.css" afterPath="$PROJECT_DIR$/frontend/utilities/css/landing.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/css/service.css" afterPath="$PROJECT_DIR$/frontend/utilities/css/service.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/css/signin.css" afterPath="$PROJECT_DIR$/frontend/utilities/css/signin.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/css/signin_a.css" afterPath="$PROJECT_DIR$/frontend/utilities/css/signin_a.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/css/subscriptions.css" afterPath="$PROJECT_DIR$/frontend/utilities/css/subscriptions.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/node_modules/jquery-3.3.1.js" afterPath="$PROJECT_DIR$/frontend/utilities/jquery/jquery-3.3.1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/app/example.html" afterPath="$PROJECT_DIR$/frontend/proto-pages/app/example.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/app/landing.html" afterPath="$PROJECT_DIR$/frontend/proto-pages/app/landing_0.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/app/login.html" afterPath="$PROJECT_DIR$/frontend/proto-pages/app/login.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/app/service.html" afterPath="$PROJECT_DIR$/frontend/proto-pages/app/service.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/app/subscriptions.html" afterPath="$PROJECT_DIR$/frontend/proto-pages/app/subscriptions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/controller/UserAccountDataController.java" afterPath="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/controller/UserAccountDataController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/service/UserAccountDataService.java" afterPath="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/service/UserAccountDataService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/angular.json" afterPath="$PROJECT_DIR$/frontend/angular.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/package.json" afterPath="$PROJECT_DIR$/frontend/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/proto-pages/app/landing.html" afterPath="$PROJECT_DIR$/frontend/proto-pages/app/landing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/proto-pages/app/test.html" afterPath="$PROJECT_DIR$/frontend/proto-pages/app/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/proxy.conf.json" afterPath="$PROJECT_DIR$/frontend/proxy.conf.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app/model/user-account.ts" afterPath="$PROJECT_DIR$/frontend/src/app/model/user-account.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/app/service/user/user-account.service.ts" afterPath="$PROJECT_DIR$/frontend/src/app/service/user/user-account.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/src/index.html" afterPath="$PROJECT_DIR$/frontend/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/utilities/jquery/jquery-3.3.1.js" afterPath="$PROJECT_DIR$/frontend/utilities/jquery/jquery-3.3.1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/filter/CorsFilter.java" afterPath="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/config/CORSFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/models/UserAccountViewModel.java" afterPath="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/model/UserAccountViewModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/frontend/src/app/user-accounts/user_accounts.component.ts" afterPath="$PROJECT_DIR$/frontend/src/app/component/user-accounts/user-accounts.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/be/target/" />
+    <ignored path="$PROJECT_DIR$/fapi/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,36 +71,119 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="SD-4_OtyutskyAlexey" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="landing.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/proto-pages/app/landing.html">
+      <file leaf-file-name="navbar.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/component/navbar/navbar.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#li#4;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="false" />
+                <element signature="n#li#5;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="false" />
+                <element signature="n#form#0;n#div#0;n#nav#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="table_create.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/be/sql/table_create.sql">
+      <file leaf-file-name="films.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/component/films/films.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+              <folding>
+                <element signature="n#!!block;n#_deleteFilm#0;n#FilmsComponent#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user-accounts.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/component/user-accounts/user-accounts.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!block;n#_openModal#0;n#UserAccountsComponent#0" expanded="false" />
+                <element signature="n#!!block;n#_addUserAccount#0;n#UserAccountsComponent#0" expanded="false" />
+                <element signature="n#!!block;n#_deleteUserAccount#0;n#UserAccountsComponent#0" expanded="false" />
+                <element signature="n#!!block;n#refreshBa#0;n#UserAccountsComponent#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="37" column="67" lean-forward="false" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+              <folding>
+                <element signature="e#126#1743#1" expanded="false" />
+                <element signature="e#1744#3587#1" expanded="false" />
+                <marker date="1544091380022" expanded="false" signature="1809:2604" ph="..." />
+                <marker date="1544091380022" expanded="false" signature="2652:3582" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/service/login/login.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" column="64" lean-forward="false" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="table_fill.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/be/sql/table_fill.sql">
+      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/component/login/login.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="295">
+              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="films.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/component/films/films.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/component/login/login.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="90" lean-forward="false" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -100,11 +194,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="Interface" />
+        <option value="CSS File" />
         <option value="Class" />
-        <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -124,12 +218,26 @@
       <find>glyphicon</find>
       <find>fa-flopp</find>
       <find>MOVIE</find>
+      <find>Admin</find>
+      <find>UserAccount</find>
+      <find>userAccount</find>
+      <find>div</find>
+      <find>&lt;/p&gt;</find>
+      <find>editableBa</find>
+      <find>entity</find>
+      <find>userDataService</find>
     </findStrings>
     <replaceStrings>
       <replace>user</replace>
       <replace>User</replace>
       <replace>fa</replace>
       <replace>FILM</replace>
+      <replace>admin</replace>
+      <replace>Film</replace>
+      <replace>film</replace>
+      <replace>p</replace>
+      <replace>editableUserAccount</replace>
+      <replace>models</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -143,57 +251,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/utilities/css/subscriptions.css" />
-        <option value="$PROJECT_DIR$/frontend/example.html" />
-        <option value="$PROJECT_DIR$/frontend/login.html" />
-        <option value="$PROJECT_DIR$/frontend/src/login.html" />
-        <option value="$PROJECT_DIR$/frontend/src/app/login.html" />
-        <option value="$PROJECT_DIR$/be/src/main/java/com.netcracker.edu.backend/BackendApplication.java" />
-        <option value="$PROJECT_DIR$/fapi/src/main/resources/application.properties.properties" />
-        <option value="$PROJECT_DIR$/fapi/src/main/java/FapiApplication.java" />
-        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/FapiApplication.java" />
-        <option value="$PROJECT_DIR$/fapi/fapi.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/repository/UserAccountRepository.java" />
-        <option value="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/service/UserAccountService.java" />
-        <option value="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/service/UserAccountServiceInterface.java" />
-        <option value="$PROJECT_DIR$/be/src/main/resources/application.properties.properties" />
-        <option value="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/BackendApplication.java" />
-        <option value="$PROJECT_DIR$/be/be.iml" />
-        <option value="$PROJECT_DIR$/be/pom.xml" />
-        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/models/UserAccountViewModel.java" />
-        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/filter/CorsFilter.java" />
-        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/service/UserAccountDataServiceInterface.java" />
-        <option value="$PROJECT_DIR$/fapi/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/controller/UserAccountDataContoller.java" />
-        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/controller/UserAccountDataController.java" />
-        <option value="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/controller/UserAccountController.java" />
-        <option value="$PROJECT_DIR$/be/sql/user_account_table.sql" />
-        <option value="$PROJECT_DIR$/be/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/entity/UserAccount.java" />
-        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/service/UserAccountDataService.java" />
-        <option value="$PROJECT_DIR$/frontend/src/app/user_accounts/user-accounts.component.html" />
-        <option value="$PROJECT_DIR$/frontend/src/app/user_accounts/user_accounts.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/user_accounts/user_accounts.component.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/model/user.account.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/model/user-account.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/service/user/user-account.service.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/user-accounts/user_accounts.component.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/frontend/package.json" />
-        <option value="$PROJECT_DIR$/frontend/proxy.conf.json" />
+        <option value="$PROJECT_DIR$/frontend/src/index.html" />
+        <option value="$PROJECT_DIR$/frontend/angular.json" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/films/films.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/films/films.component.css" />
         <option value="$PROJECT_DIR$/frontend/src/app/user-accounts/user-accounts.component.html" />
-        <option value="$PROJECT_DIR$/frontend/proto-pages/app/landing2.html" />
-        <option value="$PROJECT_DIR$/frontend/proto-pages/app/example.html" />
-        <option value="$PROJECT_DIR$/frontend/proto-pages/app/test.html" />
-        <option value="$PROJECT_DIR$/frontend/proto-pages/app/landing.html" />
-        <option value="$PROJECT_DIR$/be/sql/user_account.sql" />
-        <option value="$PROJECT_DIR$/be/sql/billing_account.sql" />
-        <option value="$PROJECT_DIR$/be/sql/wallet.sql" />
-        <option value="$PROJECT_DIR$/be/sql/film.sql" />
-        <option value="$PROJECT_DIR$/be/sql/film_crew.sql" />
+        <option value="$PROJECT_DIR$/frontend/src/app/user-accounts/user-accounts.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/films/films.component.html" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/models/Constants.java" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/models/AuthToken.java" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/models/LoginUser.java" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/config/CORSFilter.java" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/model/Constants.java" />
+        <option value="$PROJECT_DIR$/fapi/fapi.iml" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/FapiApplication.java" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/config/JwtAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/fapi/pom.xml" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/config/JwtTokenUtil.java" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/filter/CorsFilter.java" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/config/CorsFilter.java" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/controller/UserAccountDataController.java" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/service/UserAccountDataService.java" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/model/LoginUser.java" />
+        <option value="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/service/UserAccountService.java" />
+        <option value="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/repository/UserAccountRepository.java" />
+        <option value="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/service/Impl/UserAccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/controller/UserAccountController.java" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/controller/AuthenticationController.java" />
         <option value="$PROJECT_DIR$/be/sql/table_create.sql" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/service/Impl/UserAccountDataServiceImpl.java" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/config/JwtAuthenticationEntryPoint.java" />
+        <option value="$PROJECT_DIR$/frontend/src/app/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/login/login.component.html" />
+        <option value="$PROJECT_DIR$/frontend/src/app/component/user-accounts/user-accounts.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/model/login.ts" />
+        <option value="$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/frontend/proxy.conf.json" />
+        <option value="$PROJECT_DIR$/frontend/src/app/component/login/login.component.html" />
+        <option value="$PROJECT_DIR$/frontend/src/app/model/token.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/storage/token.storage.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/component/films/films.module.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/service/film/film.service.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/frontend/src/app/component/navbar/navbar.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/component/navbar/navbar.component.html" />
+        <option value="$PROJECT_DIR$/frontend/src/app/component/user-accounts/user-accounts.module.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/component/login/login.module.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/service/login/login.service.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/component/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/component/films/films.component.ts" />
       </list>
     </option>
   </component>
@@ -203,13 +311,62 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="fapi" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="fapi" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="fapi" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/frontend/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1259" />
+    <option name="width" value="1257" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -220,15 +377,24 @@
             <id />
           </State>
           <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
             <id>GeneralJavaScript</id>
           </State>
           <State>
             <id>JavaScript</id>
           </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>JSUnresolvedLibraryURL</id>
+            <id>SpringJavaAutowiringInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -249,6 +415,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -271,7 +438,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="be" />
+              <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -285,17 +452,240 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="be" />
+              <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-accounts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="navbar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SD-4_OtyutskyAlexey" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="films" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
@@ -308,7 +698,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/utilities/jQuery" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-security" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="D:/Uti/nodejs/node" />
     <property name="js-jscs-nodeInterpreter" value="D:\Uti\nodejs\node.exe" />
@@ -323,12 +713,13 @@
       <recent name="D:\Downloads\Вучоба\NetCracker\SD-4_OtyutskyAlexey\frontend\node_modules" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Downloads\Вучоба\NetCracker\SD-4_OtyutskyAlexey\frontend\src\app\component" />
       <recent name="D:\Downloads\Вучоба\NetCracker\SD-4_OtyutskyAlexey\frontend\utilities\jQuery" />
       <recent name="D:\Downloads\Вучоба\NetCracker\SD-4_OtyutskyAlexey\frontend\src\app" />
       <recent name="D:\Downloads\Вучоба\NetCracker\SD-4_OtyutskyAlexey\frontend\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Angular Launch">
+  <component name="RunManager" selected="Spring Boot.Fapi Launch">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -645,6 +1036,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -764,50 +1177,123 @@
       <workItem from="1541417496735" duration="2121000" />
       <workItem from="1541443986912" duration="5408000" />
       <workItem from="1541496681378" duration="7511000" />
-      <workItem from="1541515209133" duration="997000" />
+      <workItem from="1541515209133" duration="1888000" />
+      <workItem from="1541520617520" duration="1400000" />
+      <workItem from="1541675262025" duration="4749000" />
+      <workItem from="1541693378018" duration="6257000" />
+      <workItem from="1542019556735" duration="1490000" />
+      <workItem from="1542059679609" duration="1911000" />
+      <workItem from="1542103529867" duration="6253000" />
+      <workItem from="1542119914634" duration="3760000" />
+      <workItem from="1542127996769" duration="3988000" />
+      <workItem from="1542279870281" duration="1332000" />
+      <workItem from="1542285441347" duration="4255000" />
+      <workItem from="1542297957067" duration="6138000" />
+      <workItem from="1542706793692" duration="2672000" />
+      <workItem from="1542720815515" duration="585000" />
+      <workItem from="1542724913729" duration="2735000" />
+      <workItem from="1542733599802" duration="50000" />
+      <workItem from="1542734702788" duration="1092000" />
+      <workItem from="1542890705838" duration="5273000" />
+      <workItem from="1542901299062" duration="2157000" />
+      <workItem from="1542903495086" duration="303000" />
+      <workItem from="1542904402019" duration="5187000" />
+      <workItem from="1542919401379" duration="350000" />
+      <workItem from="1543251347853" duration="3438000" />
+      <workItem from="1543261299589" duration="302000" />
+      <workItem from="1543313088282" duration="1198000" />
+      <workItem from="1543316543626" duration="3778000" />
+      <workItem from="1543327092894" duration="867000" />
+      <workItem from="1543331374078" duration="1623000" />
+      <workItem from="1543334859870" duration="5733000" />
+      <workItem from="1543496960410" duration="3274000" />
+      <workItem from="1543506948493" duration="3037000" />
+      <workItem from="1543510839923" duration="3016000" />
+      <workItem from="1543563875768" duration="46000" />
+      <workItem from="1543918571113" duration="4198000" />
+      <workItem from="1543933828421" duration="3706000" />
+      <workItem from="1543941535561" duration="3114000" />
+      <workItem from="1543945291297" duration="536000" />
+      <workItem from="1544041573876" duration="16000" />
+      <workItem from="1544090417163" duration="1095000" />
+      <workItem from="1544093290258" duration="6150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58252000" />
+    <option name="totallyTimeSpent" value="166207000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1259" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1257" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5028203" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.4971797" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27893892" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33086053" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20756234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264095" sideWeight="0.4971797" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33086053" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2699436" sideWeight="0.491358" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27009645" sideWeight="0.50864196" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5028203" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27893892" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264095" sideWeight="0.4971797" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33086053" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27009645" sideWeight="0.491358" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27009645" sideWeight="0.50864196" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -817,153 +1303,366 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/controller/AuthenticationController.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.8.RELEASE/spring-security-core-5.0.8.RELEASE-sources.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/service/Impl/UserAccountServiceImpl.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/service/Impl/UserAccountDataServiceImpl.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/controller/AuthenticationController.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="24" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((BadCredentialsException)((BadCredentialsException)((BadCredentialsException)((BadCredentialsException)((BadCredentialsException)((BadCredentialsException)((BadCredentialsException)((BadCredentialsException)((BadCredentialsException)((BadCredentialsException)((BadCredentialsException)((BadCredentialsException)((BadCredentialsException)ex.target).cause).cause).cause).cause).cause).cause).cause).cause).cause).cause).cause).cause).cause" custom="org.springframework.security.authentication.BadCredentialsException" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/controller/UserAccountController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.8.RELEASE/spring-security-config-5.0.8.RELEASE.jar!/org/springframework/security/config/annotation/AbstractSecurityBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0-sources.jar!/org/apache/logging/log4j/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Uti/Java/jdk1.8.0_101/src.zip!/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Uti/Java/jdk1.8.0_101/src.zip!/java/util/concurrent/CopyOnWriteArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/LoggerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="266" column="0" lean-forward="false" selection-start-line="266" selection-start-column="0" selection-end-line="266" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="470" column="0" lean-forward="false" selection-start-line="470" selection-start-column="0" selection-end-line="470" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-to-slf4j/2.10.0/log4j-to-slf4j-2.10.0-sources.jar!/org/apache/logging/slf4j/SLF4JLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0-sources.jar!/org/apache/logging/log4j/spi/AbstractLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="1496" column="0" lean-forward="false" selection-start-line="1496" selection-start-column="0" selection-end-line="1496" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jcl/5.0.9.RELEASE/spring-jcl-5.0.9.RELEASE-sources.jar!/org/apache/commons/logging/LogFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="228" column="0" lean-forward="false" selection-start-line="228" selection-start-column="0" selection-end-line="228" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Uti/Java/jdk1.8.0_101/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Uti/Java/jdk1.8.0_101/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="858" column="0" lean-forward="false" selection-start-line="858" selection-start-column="0" selection-end-line="858" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Uti/Java/jdk1.8.0_101/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/i18n/LocaleContextHolder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.9.RELEASE/spring-context-5.0.9.RELEASE.jar!/org/springframework/context/support/MessageSourceAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/service/UserAccountService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/entity/UserAccount.java">
+    <entry file="file://$PROJECT_DIR$/be/src/main/java/com/netcracker/edu/backend/service/Impl/UserAccountServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="349">
+          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding>
+            <element signature="e#1178#1179#0" expanded="false" />
+            <element signature="e#1230#1231#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/filter/CorsFilter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.8.RELEASE/spring-security-core-5.0.8.RELEASE-sources.jar!/org/springframework/security/core/userdetails/cache/NullUserCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="272">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/controller/UserAccountDataController.java">
+    <entry file="file://$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/config/JwtAuthenticationEntryPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main.ts">
+    <entry file="file://$PROJECT_DIR$/frontend/proto-pages/app/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/service/UserAccountDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="20" column="114" lean-forward="false" selection-start-line="20" selection-start-column="114" selection-end-line="20" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/models/UserAccountViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/be/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/tslint.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/frontend.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/node_modules/@types/jasmine/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="131" column="28" lean-forward="false" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/model/user-account.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/model/login.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/service/Impl/UserAccountDataServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.8.RELEASE/spring-security-core-5.0.8.RELEASE-sources.jar!/org/springframework/security/authentication/dao/DaoAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.8.RELEASE/spring-security-core-5.0.8.RELEASE-sources.jar!/org/springframework/security/authentication/ProviderManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.0.8.RELEASE/spring-security-config-5.0.8.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="311" column="0" lean-forward="false" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="54" column="10" lean-forward="false" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/proxy.conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/node_modules/ngx-bootstrap/spec/ng-bootstrap/license">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/component/user-accounts/user-accounts.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-150">
+          <caret line="116" column="0" lean-forward="false" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/fapi/src/main/java/com.netcracker.edu.fapi/controller/AuthenticationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.css">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.8.RELEASE/spring-security-core-5.0.8.RELEASE-sources.jar!/org/springframework/security/authentication/dao/AbstractUserDetailsAuthenticationProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2686">
+          <caret line="199" column="7" lean-forward="false" selection-start-line="199" selection-start-column="7" selection-end-line="199" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#16226#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#10174#10175#0" expanded="false" />
+            <element signature="e#10197#10198#0" expanded="false" />
+            <element signature="e#10243#10244#0" expanded="false" />
+            <element signature="e#10279#10280#0" expanded="false" />
+            <element signature="e#10329#10330#0" expanded="false" />
+            <element signature="e#10369#10370#0" expanded="false" />
+            <element signature="e#13819#13820#0" expanded="false" />
+            <element signature="e#13882#13883#0" expanded="false" />
+            <element signature="e#13932#13933#0" expanded="false" />
+            <element signature="e#13965#13966#0" expanded="false" />
+            <element signature="e#14175#14176#0" expanded="false" />
+            <element signature="e#14212#14213#0" expanded="false" />
+            <element signature="e#14672#14673#0" expanded="false" />
+            <element signature="e#14710#14711#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/model/token.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/model/film.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/storage/token.storage.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/service/film/film.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/service/user/user-account.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/component/user-accounts/user-accounts.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.spec.ts">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/component/navbar/navbar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="37" lean-forward="false" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/component/login/login.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/component/films/films.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -971,204 +1670,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/proxy.conf.json">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.14.3_umd_popper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="52" column="4" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/proto-pages/app/service.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/user-accounts/user-accounts.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="55" column="6" lean-forward="false" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/user-accounts/user_accounts.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/utilities/jquery/jquery-3.3.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/utilities/css/subscriptions.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/utilities/css/signin_a.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/utilities/css/signin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/utilities/css/service.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/utilities/popper.js-master/docs/images/banner.png" />
-    <entry file="file://$PROJECT_DIR$/frontend/utilities/popper.js-master/docs/images/banner.jpg" />
-    <entry file="file://$PROJECT_DIR$/frontend/utilities/popper.js-master/docs/_layouts/landing.html" />
-    <entry file="file://$PROJECT_DIR$/frontend/proto-pages/app/example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="7" lean-forward="false" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/utilities/css/landing.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/proto-pages/app/landing_0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/utilities/bootstrap/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="5" column="65113" lean-forward="false" selection-start-line="5" selection-start-column="65106" selection-end-line="5" selection-end-column="65113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/proto-pages/app/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="27" column="38" lean-forward="true" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/utilities/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="2357" column="35" lean-forward="false" selection-start-line="2357" selection-start-column="35" selection-end-line="2357" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/utilities/bootstrap/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/utilities/font-awesome/css/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3799">
-          <caret line="3" column="26597" lean-forward="false" selection-start-line="3" selection-start-column="26594" selection-end-line="3" selection-end-column="26597" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/proto-pages/app/landing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <caret line="37" column="67" lean-forward="false" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/be/sql/user_account.sql">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/component/login/login.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/be/sql/billing_account.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/be/sql/film.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/be/sql/wallet.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/be/sql/film_crew.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/be/sql/table_create.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="90" lean-forward="false" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/be/sql/table_fill.sql">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/component/navbar/navbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="n#li#4;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="false" />
+            <element signature="n#li#5;n#ul#0;n#div#0;n#nav#0;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#div#0;n#nav#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <element signature="e#126#1743#1" expanded="false" />
+            <element signature="e#1744#3587#1" expanded="false" />
+            <marker date="1544091380022" expanded="false" signature="1809:2604" ph="..." />
+            <marker date="1544091380022" expanded="false" signature="2652:3582" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/service/login/login.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="64" lean-forward="false" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/component/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/component/films/films.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/component/films/films.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="47" column="8" lean-forward="false" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!block;n#_deleteFilm#0;n#FilmsComponent#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/component/user-accounts/user-accounts.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#_openModal#0;n#UserAccountsComponent#0" expanded="false" />
+            <element signature="n#!!block;n#_addUserAccount#0;n#UserAccountsComponent#0" expanded="false" />
+            <element signature="n#!!block;n#_deleteUserAccount#0;n#UserAccountsComponent#0" expanded="false" />
+            <element signature="n#!!block;n#refreshBa#0;n#UserAccountsComponent#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1181,7 +1778,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.18117408" />
+                <option value="0.51330376" />
               </list>
             </option>
           </splitter-proportions>
@@ -1189,11 +1786,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.18117408" />
+                <option value="0.51330376" />
               </list>
             </option>
           </splitter-proportions>
@@ -1201,10 +1798,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>html5shiv</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.51330376" />
               </list>
             </option>
           </splitter-proportions>
@@ -1216,7 +1814,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.18117408" />
+                <option value="0.51330376" />
               </list>
             </option>
           </splitter-proportions>
@@ -1224,7 +1822,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>be</last-edited>
+          <last-edited>fapi</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1248,7 +1846,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: net.bytebuddy:byte-buddy-agent:1.7.11</last-edited>
+          <last-edited>Java EE 6-Java EE 6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

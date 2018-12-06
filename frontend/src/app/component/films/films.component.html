@@ -1,0 +1,24 @@
+<div class="text-center">
+  <p>Films count: {{films ? films.length : 0}}</p>
+</div>
+
+<div class="container-fluid row">
+
+  <div class="col-4 film" *ngFor="let film of films">
+    <div class="container text-right">
+      {{film.name}}({{film.date_release}})
+    </div>
+    <div class="col-7">
+      Description:
+      <p>
+      {{film.description}}
+      </p>
+    </div>
+    <div class="flex-md-row-reverse">
+      <div class="col-3">
+        It's just for {{film.cost_rent}}/{{film.cost_buy}} $.
+      </div>
+    </div>
+  </div>
+
+</div>

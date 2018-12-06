@@ -3,8 +3,8 @@
  */
 export class UserAccount {
   id_AC: string;
+  is_admin: string;
   id_BA: string;
-  id_ROLE: string;
   email: string;
   login: string;
   password: string;
@@ -13,7 +13,7 @@ export class UserAccount {
     let clonedUserAccount: UserAccount = new UserAccount();
     clonedUserAccount.id_AC = userAccount.id_AC;
     clonedUserAccount.id_BA = userAccount.id_BA;
-    clonedUserAccount.id_ROLE = userAccount.id_ROLE;
+    clonedUserAccount.is_admin = userAccount.is_admin;
     clonedUserAccount.email = userAccount.email;
     clonedUserAccount.login = userAccount.login;
     clonedUserAccount.password = userAccount.password;

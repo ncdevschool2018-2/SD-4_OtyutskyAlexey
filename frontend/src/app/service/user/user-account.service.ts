@@ -1,6 +1,3 @@
-/**
- * Created by Alexey on 01.11.2018.
- */
 import {Injectable} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {Observable} from "rxjs";
@@ -17,15 +14,15 @@ export class UserAccountService { //todo create interface
 
   // Ajax request for user account data
   getUserAccounts(): Observable<UserAccount[]> {
-    return this.http.get<UserAccount[]>('/api/ua');
+    return this.http.get<UserAccount[]>('/api/user-accounts');
   }
 
   saveUserAccount(userAccount: UserAccount): Observable<UserAccount> {
-    return this.http.post<UserAccount>('/api/ua', userAccount);
+    return this.http.post<UserAccount>('/api/user-accounts', userAccount);
   }
 
   deleteUserAccount(userAccountId: string): Observable<void> {
-    return this.http.delete<void>('/api/ua/' + userAccountId);
+    return this.http.delete<void>('/api/user-accounts/' + userAccountId);
   }
 
 }
